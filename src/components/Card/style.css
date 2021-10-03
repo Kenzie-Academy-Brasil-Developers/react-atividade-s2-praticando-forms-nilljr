@@ -1,0 +1,43 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h2 {
+  margin: 1vh;
+  font-size: 40px;
+  color: white;
+}
+
+.welcome h3 {
+  font-size: 30px;
+}
+
+.welcome span {
+  font-size: 25px;
+  color: white;
+  margin: 20px;
+}
+
+.welcome button {
+  width: auto;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .welcome h2 {
+    font-size: 25px;
+  }
+
+  .welcome h3 {
+    font-size: 20px;
+  }
+
+  .welcome span {
+    font-size: 15px;
+  }
+}
